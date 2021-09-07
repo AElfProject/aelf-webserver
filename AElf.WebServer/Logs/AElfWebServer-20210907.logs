@@ -1,0 +1,412 @@
+2021-09-07 10:59:04.410 +08:00 [INF] Starting console host.
+2021-09-07 10:59:05.617 +08:00 [INF] Loaded ABP modules:
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-09-07 10:59:05.620 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-09-07 10:59:05.620 +08:00 [INF] - AElf.WebServer.AElfWebServerModule
+2021-09-07 10:59:05.622 +08:00 [INF] Initialized all ABP modules.
+2021-09-07 10:59:05.744 +08:00 [INF] Now listening on: https://localhost:7079
+2021-09-07 10:59:05.745 +08:00 [INF] Now listening on: http://localhost:7080
+2021-09-07 10:59:05.745 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-07 10:59:05.745 +08:00 [INF] Hosting environment: Production
+2021-09-07 10:59:05.745 +08:00 [INF] Content root path: /Users/eanzhao/Code/AElf.WebServer/AElf.WebServer
+2021-09-07 10:59:15.123 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/index.html  
+2021-09-07 10:59:15.332 +08:00 [INF] Request finished in 212.2727ms 200 text/html;charset=utf-8
+2021-09-07 10:59:15.408 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/swagger-ui.css  
+2021-09-07 10:59:15.445 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-09-07 10:59:15.445 +08:00 [INF] Request finished in 37.3767ms 200 text/css
+2021-09-07 10:59:15.627 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/favicon-32x32.png  
+2021-09-07 10:59:15.627 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 10:59:15.627 +08:00 [INF] Request finished in 0.783ms 200 image/png
+2021-09-07 10:59:16.277 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/v1/swagger.json  
+2021-09-07 10:59:16.335 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/favicon-32x32.png  
+2021-09-07 10:59:16.336 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 10:59:16.337 +08:00 [INF] Request finished in 1.7293ms 200 image/png
+2021-09-07 10:59:16.460 +08:00 [INF] Request finished in 183.6052ms 200 application/json;charset=utf-8
+2021-09-07 11:01:44.088 +08:00 [INF] Starting console host.
+2021-09-07 11:01:45.305 +08:00 [INF] Loaded ABP modules:
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-09-07 11:01:45.307 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-09-07 11:01:45.307 +08:00 [INF] - AElf.WebServer.AElfWebServerModule
+2021-09-07 11:01:45.308 +08:00 [INF] Initialized all ABP modules.
+2021-09-07 11:01:45.418 +08:00 [INF] Now listening on: https://localhost:7079
+2021-09-07 11:01:45.420 +08:00 [INF] Now listening on: http://localhost:7080
+2021-09-07 11:01:45.420 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-07 11:01:45.420 +08:00 [INF] Hosting environment: Production
+2021-09-07 11:01:45.420 +08:00 [INF] Content root path: /Users/eanzhao/Code/AElf.WebServer/AElf.WebServer
+2021-09-07 11:01:54.110 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/index.html  
+2021-09-07 11:01:54.326 +08:00 [INF] Request finished in 220.2312ms 200 text/html;charset=utf-8
+2021-09-07 11:01:54.384 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/swagger-ui.css  
+2021-09-07 11:01:54.446 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-09-07 11:01:54.457 +08:00 [INF] Request finished in 72.8037ms 200 text/css
+2021-09-07 11:01:54.599 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/favicon-32x32.png  
+2021-09-07 11:01:54.599 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 11:01:54.599 +08:00 [INF] Request finished in 0.8663ms 200 image/png
+2021-09-07 11:01:55.292 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/v1/swagger.json  
+2021-09-07 11:01:55.344 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/favicon-32x32.png  
+2021-09-07 11:01:55.346 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 11:01:55.346 +08:00 [INF] Request finished in 1.6732ms 200 image/png
+2021-09-07 11:01:55.474 +08:00 [INF] Request finished in 182.5281ms 200 application/json;charset=utf-8
+2021-09-07 11:07:20.216 +08:00 [INF] Starting console host.
+2021-09-07 11:07:21.553 +08:00 [INF] Loaded ABP modules:
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-09-07 11:07:21.555 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-09-07 11:07:21.555 +08:00 [INF] - AElf.WebServer.AElfWebServerModule
+2021-09-07 11:07:21.557 +08:00 [INF] Initialized all ABP modules.
+2021-09-07 11:07:21.672 +08:00 [INF] Now listening on: https://localhost:7079
+2021-09-07 11:07:21.674 +08:00 [INF] Now listening on: http://localhost:7080
+2021-09-07 11:07:21.674 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-07 11:07:21.674 +08:00 [INF] Hosting environment: Production
+2021-09-07 11:07:21.674 +08:00 [INF] Content root path: /Users/eanzhao/Code/AElf.WebServer/AElf.WebServer
+2021-09-07 11:07:29.716 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/index.html  
+2021-09-07 11:07:29.923 +08:00 [INF] Request finished in 210.7036ms 200 text/html;charset=utf-8
+2021-09-07 11:07:29.966 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/swagger-ui.css  
+2021-09-07 11:07:29.999 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-09-07 11:07:29.999 +08:00 [INF] Request finished in 33.3646ms 200 text/css
+2021-09-07 11:07:30.158 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/favicon-32x32.png  
+2021-09-07 11:07:30.159 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 11:07:30.159 +08:00 [INF] Request finished in 0.7476ms 200 image/png
+2021-09-07 11:07:30.701 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/v1/swagger.json  
+2021-09-07 11:07:30.752 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/favicon-32x32.png  
+2021-09-07 11:07:30.753 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 11:07:30.753 +08:00 [INF] Request finished in 1.0626ms 200 image/png
+2021-09-07 11:07:30.870 +08:00 [INF] Request finished in 169.1182ms 200 application/json;charset=utf-8
+2021-09-07 11:07:39.419 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/api/getBalance?address=2HeW7S9HZrbRJZeivMppUuUY3djhWdfVnP5zrDsz8wqq6hKMfT  
+2021-09-07 11:07:39.451 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:07:39.516 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:07:39.556 +08:00 [INF] Trying to get balance of 2HeW7S9HZrbRJZeivMppUuUY3djhWdfVnP5zrDsz8wqq6hKMfT
+2021-09-07 11:07:47.637 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:07:47.660 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 8136.1367ms
+2021-09-07 11:07:47.665 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:07:47.667 +08:00 [INF] Request finished in 8248.4877ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:08:33.226 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/api/getBalance?address=2LNg7aSwwigGWaisUzKjSGdijV9Y6jdtJqrD2PWX3ZQQ2HqsSa  
+2021-09-07 11:08:33.228 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:08:33.229 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:08:33.230 +08:00 [INF] Trying to get balance of 2LNg7aSwwigGWaisUzKjSGdijV9Y6jdtJqrD2PWX3ZQQ2HqsSa
+2021-09-07 11:08:34.530 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:08:34.534 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 1304.4164ms
+2021-09-07 11:08:34.534 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:08:34.537 +08:00 [INF] Request finished in 1310.7438ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:08:42.996 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/api/getBalance?address=2LNg7aSwwigGWaisUzKjSGdijV9Y6jdtJqrD2PWX3ZQQ2HqsSa  
+2021-09-07 11:08:42.998 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:08:42.998 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:08:43.000 +08:00 [INF] Trying to get balance of 2LNg7aSwwigGWaisUzKjSGdijV9Y6jdtJqrD2PWX3ZQQ2HqsSa
+2021-09-07 11:08:44.078 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:08:44.080 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 1081.3682ms
+2021-09-07 11:08:44.080 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:08:44.080 +08:00 [INF] Request finished in 1084.1117ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:10:12.332 +08:00 [INF] Starting console host.
+2021-09-07 11:10:13.212 +08:00 [INF] Loaded ABP modules:
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-09-07 11:10:13.214 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-09-07 11:10:13.214 +08:00 [INF] - AElf.WebServer.AElfWebServerModule
+2021-09-07 11:10:13.215 +08:00 [INF] Initialized all ABP modules.
+2021-09-07 11:10:13.311 +08:00 [INF] Now listening on: https://localhost:7079
+2021-09-07 11:10:13.312 +08:00 [INF] Now listening on: http://localhost:7080
+2021-09-07 11:10:13.312 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-07 11:10:13.312 +08:00 [INF] Hosting environment: Production
+2021-09-07 11:10:13.312 +08:00 [INF] Content root path: /Users/eanzhao/Code/AElf.WebServer/AElf.WebServer
+2021-09-07 11:10:30.202 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/api/getBalance?address=2919ws65WPjo9JoyYcCpnDdfEXhn1KJ5q3J9hCGFLkvGWKh2b7  
+2021-09-07 11:10:30.284 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:10:30.346 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:10:31.286 +08:00 [INF] Trying to get ELF balance of 2919ws65WPjo9JoyYcCpnDdfEXhn1KJ5q3J9hCGFLkvGWKh2b7
+2021-09-07 11:10:32.015 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:10:32.100 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 1745.724ms
+2021-09-07 11:10:32.104 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:10:32.108 +08:00 [INF] Request finished in 1912.1617ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:10:41.821 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/api/getBalance?address=2919ws65WPjo9JoyYcCpnDdfEXhn1KJ5q3J9hCGFLkvGWKh2b7  
+2021-09-07 11:10:41.824 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:10:41.825 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:10:42.332 +08:00 [INF] Trying to get ELF balance of 2919ws65WPjo9JoyYcCpnDdfEXhn1KJ5q3J9hCGFLkvGWKh2b7
+2021-09-07 11:10:42.576 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:10:42.579 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 753.6467ms
+2021-09-07 11:10:42.580 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:10:42.582 +08:00 [INF] Request finished in 760.3392ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:11:05.272 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/api/getBalance?address=YCmWLfrBqboBTwT7hyV7tunuCZyeMWU6qnbZnXLnfy5wc4KkM  
+2021-09-07 11:11:05.273 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:11:05.274 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:11:05.832 +08:00 [INF] Trying to get ELF balance of YCmWLfrBqboBTwT7hyV7tunuCZyeMWU6qnbZnXLnfy5wc4KkM
+2021-09-07 11:11:06.081 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:11:06.083 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 808.61ms
+2021-09-07 11:11:06.084 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:11:06.086 +08:00 [INF] Request finished in 813.9315ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:13:46.240 +08:00 [INF] Starting console host.
+2021-09-07 11:13:47.128 +08:00 [INF] Loaded ABP modules:
+2021-09-07 11:13:47.130 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-09-07 11:13:47.130 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-09-07 11:13:47.130 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-09-07 11:13:47.130 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-09-07 11:13:47.130 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-09-07 11:13:47.131 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-09-07 11:13:47.131 +08:00 [INF] - AElf.WebServer.AElfWebServerModule
+2021-09-07 11:13:47.132 +08:00 [INF] Initialized all ABP modules.
+2021-09-07 11:13:47.226 +08:00 [INF] Now listening on: https://localhost:7079
+2021-09-07 11:13:47.227 +08:00 [INF] Now listening on: http://localhost:7080
+2021-09-07 11:13:47.227 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-07 11:13:47.227 +08:00 [INF] Hosting environment: Production
+2021-09-07 11:13:47.228 +08:00 [INF] Content root path: /Users/eanzhao/Code/AElf.WebServer/AElf.WebServer
+2021-09-07 11:13:53.847 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/api/getBalance?address=YCmWLfrBqboBTwT7hyV7tunuCZyeMWU6qnbZnXLnfy5wc4KkM  
+2021-09-07 11:13:53.944 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:13:54.006 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:13:54.862 +08:00 [INF] Trying to get ELF balance of YCmWLfrBqboBTwT7hyV7tunuCZyeMWU6qnbZnXLnfy5wc4KkM
+2021-09-07 11:13:55.643 +08:00 [INF] Balance: 0
+2021-09-07 11:13:55.659 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:13:55.763 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 1748.9054ms
+2021-09-07 11:13:55.768 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:13:55.772 +08:00 [INF] Request finished in 1929.0265ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:13:59.292 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/index.html  
+2021-09-07 11:13:59.396 +08:00 [INF] Request finished in 103.8221ms 200 text/html;charset=utf-8
+2021-09-07 11:13:59.445 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/swagger-ui.css  
+2021-09-07 11:13:59.476 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-09-07 11:13:59.476 +08:00 [INF] Request finished in 30.7624ms 200 text/css
+2021-09-07 11:13:59.647 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/favicon-32x32.png  
+2021-09-07 11:13:59.653 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 11:13:59.654 +08:00 [INF] Request finished in 6.802ms 200 image/png
+2021-09-07 11:14:00.185 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/v1/swagger.json  
+2021-09-07 11:14:00.237 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/swagger/favicon-32x32.png  
+2021-09-07 11:14:00.239 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 11:14:00.239 +08:00 [INF] Request finished in 1.5014ms 200 image/png
+2021-09-07 11:14:00.349 +08:00 [INF] Request finished in 164.5824ms 200 application/json;charset=utf-8
+2021-09-07 11:14:35.392 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7079/api/getBalance?address=2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY  
+2021-09-07 11:14:35.395 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:14:35.395 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:14:45.381 +08:00 [INF] Trying to get ELF balance of 2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY
+2021-09-07 11:14:45.997 +08:00 [INF] Balance: 39946480000
+2021-09-07 11:14:45.998 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:14:45.999 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 10601.2766ms
+2021-09-07 11:14:45.999 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:14:46.000 +08:00 [INF] Request finished in 10604.9076ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:14:57.284 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7079/api/getBalance application/json; v=1.0 79
+2021-09-07 11:14:57.286 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:14:57.292 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int64] GetBalance(AElf.WebServer.Dtos.GetBalanceInputDto) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:15:00.150 +08:00 [INF] Trying to get ELF balance of 2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY
+2021-09-07 11:15:02.063 +08:00 [INF] Balance: 39946480000
+2021-09-07 11:15:02.064 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Int64'.
+2021-09-07 11:15:02.066 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 4771.7827ms
+2021-09-07 11:15:02.066 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:15:02.066 +08:00 [INF] Request finished in 4780.3713ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:16:37.005 +08:00 [INF] Starting console host.
+2021-09-07 11:16:37.874 +08:00 [INF] Loaded ABP modules:
+2021-09-07 11:16:37.876 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-09-07 11:16:37.876 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-09-07 11:16:37.876 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-09-07 11:16:37.876 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-09-07 11:16:37.876 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-09-07 11:16:37.876 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-09-07 11:16:37.877 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-09-07 11:16:37.877 +08:00 [INF] - AElf.WebServer.AElfWebServerModule
+2021-09-07 11:16:37.878 +08:00 [INF] Initialized all ABP modules.
+2021-09-07 11:16:37.947 +08:00 [INF] Now listening on: http://localhost:7080
+2021-09-07 11:16:37.948 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-07 11:16:37.948 +08:00 [INF] Hosting environment: Production
+2021-09-07 11:16:37.948 +08:00 [INF] Content root path: /Users/eanzhao/Code/AElf.WebServer/AElf.WebServer
+2021-09-07 11:16:51.480 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/swagger  
+2021-09-07 11:16:51.490 +08:00 [WRN] Failed to determine the https port for redirect.
+2021-09-07 11:16:51.577 +08:00 [INF] Request finished in 101.2923ms 301 
+2021-09-07 11:16:51.586 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/swagger/index.html  
+2021-09-07 11:16:51.683 +08:00 [INF] Request finished in 97.2904ms 200 text/html;charset=utf-8
+2021-09-07 11:16:51.725 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/swagger/swagger-ui.css  
+2021-09-07 11:16:51.756 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/swagger/swagger-ui-standalone-preset.js  
+2021-09-07 11:16:51.760 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-09-07 11:16:51.760 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-09-07 11:16:51.764 +08:00 [INF] Request finished in 7.4341ms 200 application/javascript
+2021-09-07 11:16:51.764 +08:00 [INF] Request finished in 39.0869ms 200 text/css
+2021-09-07 11:16:51.764 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/swagger/swagger-ui-bundle.js  
+2021-09-07 11:16:51.771 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-09-07 11:16:51.771 +08:00 [INF] Request finished in 6.9639ms 200 application/javascript
+2021-09-07 11:16:51.963 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/swagger/favicon-32x32.png  
+2021-09-07 11:16:51.964 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-09-07 11:16:51.964 +08:00 [INF] Request finished in 1.9289ms 200 image/png
+2021-09-07 11:16:52.592 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/swagger/v1/swagger.json  
+2021-09-07 11:16:52.730 +08:00 [INF] Request finished in 137.7434ms 200 application/json;charset=utf-8
+2021-09-07 11:17:02.235 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/api/getBalance?address=2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY  
+2021-09-07 11:17:02.264 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:17:02.321 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:17:03.707 +08:00 [INF] Trying to get ELF balance of 2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY
+2021-09-07 11:17:05.111 +08:00 [INF] Balance: 39946480000
+2021-09-07 11:17:05.124 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:17:05.149 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 2820.4598ms
+2021-09-07 11:17:05.153 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:17:05.154 +08:00 [INF] Request finished in 2918.6204ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:19:57.370 +08:00 [INF] Starting console host.
+2021-09-07 11:19:58.209 +08:00 [INF] Loaded ABP modules:
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-09-07 11:19:58.212 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-09-07 11:19:58.212 +08:00 [INF] - AElf.WebServer.AElfWebServerModule
+2021-09-07 11:19:58.213 +08:00 [INF] Initialized all ABP modules.
+2021-09-07 11:19:58.275 +08:00 [INF] Now listening on: http://localhost:7080
+2021-09-07 11:19:58.276 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-07 11:19:58.276 +08:00 [INF] Hosting environment: Production
+2021-09-07 11:19:58.276 +08:00 [INF] Content root path: /Users/eanzhao/Code/AElf.WebServer/AElf.WebServer
+2021-09-07 11:20:28.850 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:7080/api/getBalance?address=2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY  
+2021-09-07 11:20:28.860 +08:00 [WRN] Failed to determine the https port for redirect.
+2021-09-07 11:20:28.921 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:20:28.986 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.Dictionary`2[System.String,System.Int64]] GetBalance(System.String) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:20:30.540 +08:00 [INF] Trying to get ELF balance of 2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY
+2021-09-07 11:20:31.729 +08:00 [INF] Balance: 39946480000
+2021-09-07 11:20:31.729 +08:00 [INF] Trying to get VOTE balance of 2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY
+2021-09-07 11:20:32.267 +08:00 [INF] Balance: 0
+2021-09-07 11:20:32.281 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int64, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-09-07 11:20:32.370 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 3376.4955ms
+2021-09-07 11:20:32.375 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:20:32.378 +08:00 [INF] Request finished in 3531.6663ms 200 application/json; charset=utf-8; v=1.0
+2021-09-07 11:21:03.068 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:7080/api/getBalanceBySymbol application/json; v=1.0 79
+2021-09-07 11:21:03.073 +08:00 [INF] Executing endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:21:03.078 +08:00 [INF] Route matched with {action = "GetBalance", controller = "AElfWebServer", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int64] GetBalance(AElf.WebServer.Dtos.GetBalanceInputDto) on controller AElf.WebServer.Controllers.AElfWebServerController (AElf.WebServer).
+2021-09-07 11:21:04.052 +08:00 [INF] Trying to get ELF balance of 2PdTR9GvuL4PgXbq4VoebbBRNWEPmAwzMmsCxiSsvP5gdymWBY
+2021-09-07 11:21:05.710 +08:00 [INF] Balance: 39946480000
+2021-09-07 11:21:05.711 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Int64'.
+2021-09-07 11:21:05.713 +08:00 [INF] Executed action AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer) in 2634.4345ms
+2021-09-07 11:21:05.713 +08:00 [INF] Executed endpoint 'AElf.WebServer.Controllers.AElfWebServerController.GetBalance (AElf.WebServer)'
+2021-09-07 11:21:05.713 +08:00 [INF] Request finished in 2645.7929ms 200 application/json; charset=utf-8; v=1.0
